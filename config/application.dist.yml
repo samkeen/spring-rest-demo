@@ -4,3 +4,9 @@ server:
       key-store: file:///<<full path to spring-rest-demo.jks>>
       key-store-password: notprod
       key-password: notprod
+
+logging:
+  file: logs/spring-rest-demo.log
+  level:
+    root: INFO
+    org.springframework.security: DEBUG
