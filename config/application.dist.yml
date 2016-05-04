@@ -1,0 +1,6 @@
+server:
+  port: 9443
+  ssl:
+      key-store: file:///<<full path to spring-rest-demo.jks>>
+      key-store-password: notprod
+      key-password: notprod
