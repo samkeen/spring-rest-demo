@@ -1,6 +1,5 @@
 /.idea/
 /.gradle/
-/gradle/
 /build/*
 *.class
 
@@ -17,3 +16,6 @@ hs_err_pid*
 
 /config/application.yml
 /logs/*
+
+/gradle/*
+!gradle/wrapper/gradle-wrapper.jar
