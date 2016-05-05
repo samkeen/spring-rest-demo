@@ -1,5 +1,7 @@
 # spring-rest-demo
 
+[![Build Status](https://travis-ci.org/samkeen/spring-rest-demo.svg?branch=master)](https://travis-ci.org/samkeen/spring-rest-demo)
+
 # Usage
 
 create your ssl cert
