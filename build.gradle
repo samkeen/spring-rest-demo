@@ -17,7 +17,7 @@ apply plugin: 'spring-boot'
 
 jar {
     baseName = 'spring-rest-demo'
-    version =  '0.1.0'
+    version = '0.1.0'
 }
 
 repositories {
@@ -34,4 +34,12 @@ dependencies {
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
+}
+
+test {
+    testLogging {
+    // Show that tests are run in the command-line output
+        events 'passed'
+    }
+
 }
