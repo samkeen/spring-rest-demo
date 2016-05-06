@@ -1,5 +1,7 @@
 # spring-rest-demo
 
+Simple generic RESTful service built with [Spring Boot](http://projects.spring.io/spring-boot/)
+
 [![Build Status](https://travis-ci.org/samkeen/spring-rest-demo.svg?branch=master)](https://travis-ci.org/samkeen/spring-rest-demo)
 
 # Usage
